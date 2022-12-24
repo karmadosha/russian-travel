@@ -1,0 +1,43 @@
+.places__point {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas:
+    "title url"
+    "pic description";
+  column-gap: 40px;
+  row-gap: 48px;
+  padding: 0;
+  margin: 0; 
+}
+
+
+@media screen and (max-width: 1024px) {
+  .places__point {
+    max-width: 928px;
+    margin: 0 48px;
+  }
+} 
+
+@media screen and (max-width: 768px) {
+  .places__point {
+    max-width:100%;
+    margin: 0;
+    
+  }
+  
+}
+
+@media screen and (max-width: 320px) {
+  .places__point {
+    max-width: 100%;
+    margin: 0;
+    grid-template-columns: 100%;
+    row-gap: 32px;
+    grid-template-areas: 
+      "title"
+      "url"
+      "pic"
+      "description";
+  }
+}

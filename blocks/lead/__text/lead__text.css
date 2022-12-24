@@ -1,0 +1,20 @@
+.lead__text {
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 1.4;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  align-self: flex-start;
+}
+
+@media screen and (max-width: 768px) {
+  .lead__text {
+    margin-left: 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead__text {
+    margin-left: 16px;
+  }
+}
