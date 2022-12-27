@@ -3,12 +3,14 @@
   margin: 0;
   padding: 0;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 47% auto;
+  grid-template-rows: minmax(min-content, max-content) auto;
   row-gap: 48px;
   column-gap: 40px;
   grid-template-areas: 
     "title website"
     "image description";
+  
 }
 
 @media screen and (max-width: 1024px) {

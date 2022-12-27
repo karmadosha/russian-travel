@@ -6,6 +6,7 @@
   align-self: center;
   max-width: 360px;
   margin: 0 auto;
+  padding: 0;
   position: relative;
   z-index: 3;
 }

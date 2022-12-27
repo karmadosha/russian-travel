@@ -7,12 +7,6 @@
   align-self: flex-start;
 }
 
-@media screen and (max-width: 768px) {
-  .lead__text {
-    margin-left: 24px;
-  }
-}
-
 @media screen and (max-width: 320px) {
   .lead__text {
     margin-left: 16px;

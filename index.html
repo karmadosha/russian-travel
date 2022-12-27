@@ -13,10 +13,10 @@
     <img class="header__logo" src="./images/header-logo.svg" alt="логотип карта России">
     <ul class="header__lang">
       <li class="header__lang-choice">
-        <a class="header__lang-link header__lang-link_active" href="#">RU</a>
+        <a class="header__lang-link header__lang-link_active" href="#">Ru</a>
       </li>
       <li class="header__lang-choice">
-        <a class="header__lang-link" href="#">EN</a>
+        <a class="header__lang-link" href="#">En</a>
       </li>
     </ul>
 
@@ -27,8 +27,10 @@
     <section class="lead">
       <h1 class="lead__title">Путешествия по&nbsp;России</h1>
       <p class="lead__subtitle">Настоящая страна не&nbsp;в&nbsp;выпусках новостей, а здесь</p>
-      <img class="lead__image" src="./images/lead-polka.jpg" alt="женщина на полке поезда перед окном">
-      <p class="lead__caption">ваша полка — верхняя</p>
+      <figure class="lead__picture">
+        <img class="lead__image" src="./images/lead-polka.jpg" alt="женщина на полке поезда перед окном">
+        <figcaption class="lead__caption">ваша полка — верхняя</figcaption>
+    </figure>
     </section>
 
   <!--Блок intro-->
@@ -65,7 +67,7 @@
   <!--блок places-->
     <section class="places">
       <article class="place">
-        <h3 class="place__title">Куршская коса</h3>
+        <h3 class="place__title place__title_narrow">Куршская коса</h3>
         <img class="place__image" src="./images/place-kosa.jpg" alt="Куршская коса">
         <div class="place__website">
           <p class="place__url-heading">url</p>
@@ -140,24 +142,14 @@
 
   <!--Подвал-->
   <footer class="footer">
-    <ul class="footer__menu">
-      <li class="footer__item">
-        <a class="footer__link" href="https://yandex.ru/maps" target="_blank">Карты</a>
-      </li>
-      <li class="footer__item">
-        <a class="footer__link" href="https://yandex.ru/pogoda" target="_blank">Погода</a>
-      </li>
-      <li class="footer__item">
-        <a class="footer__link" href="https://rasp.yandex.ru" target="_blank">Расписание</a>
-      </li>
-      <li class="footer__item">
-        <a class="footer__link" href="https://calendar.yandex.ru" target="_blank">Календарь</a>
-      </li>
-      <li class="footer__item">
-        <a class="footer__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a>  
-      </li>
-    </ul> 
-    <p class="footer__copyright">&copy;2022. Ю.Кармадонова</p>
+    <nav class="footer__menu">
+      <a class="footer__link" href="https://yandex.ru/maps" target="_blank">Карты</a>
+      <a class="footer__link" href="https://yandex.ru/pogoda" target="_blank">Погода</a>
+      <a class="footer__link" href="https://rasp.yandex.ru" target="_blank">Расписание</a>
+      <a class="footer__link" href="https://calendar.yandex.ru" target="_blank">Календарь</a>
+      <a class="footer__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a>  
+    </nav> 
+    <p class="footer__copyright">&copy;2022. Юля Кармадонова</p>
 
   </footer>
   
