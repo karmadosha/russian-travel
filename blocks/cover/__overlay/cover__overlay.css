@@ -1,5 +1,6 @@
 .cover__overlay {
   background-image: url(../../../images/cover-trains.jpg);
+  background-size: cover;
   min-height: 740px;
   display: flex;
   flex-direction: column;
